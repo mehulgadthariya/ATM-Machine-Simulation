@@ -1,3 +1,4 @@
+
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.*;
@@ -148,12 +149,15 @@ private Map<String,Account> accounts;
     }
 }
 //Initializes the ATM and adds a test account for demonstration purposes.
-public class  Main{
+public class  Main {
     public static void main(String[] args) {
-             //creating a Account
-          Account account=new Account("123456789",123,1000.00);
-          ATM atm=new ATM();
-          atm.addAccount(account);
-          atm.start();
+        //creating a Account
+        Account account = new Account("123456789", 123, 1000.00);
+        ATM atm = new ATM();
+        atm.addAccount(account);
+        atm.start();
+
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
     }
 }
